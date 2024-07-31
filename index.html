@@ -12,7 +12,7 @@
             scroll-behavior: smooth;
         }
         .hero-section {
-            background-image: url('golf-background.jpg'); /* Replace with your background image */
+            background-image: url('./background.JPEG'); /* Replace with your background image */
             background-size: cover;
             color: white;
             height: 100vh;
@@ -22,8 +22,20 @@
             text-align: center;
             position: relative;
         }
+
         .hero-section h1 {
+            background-color: yellow;
             font-size: 4rem;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .hero-section p {
+            background-color: yellow;
+            font-size: 2rem;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
         }
         .hero-section img {
             max-width: 100%;
@@ -64,11 +76,11 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="bg-dark">
+    <section id="home" class="hero-section">
         <div>
             <img src="./profile.png" alt="Golf Image">
             <h1>We are Team Golf, hacking our way to victory</h1>
-            <p>Spence, Sweeny, Yu, Kunal, Flynn, Sworup</p>
+            <p>Spence, Sweeney, Yu, Kunal, Flynn, Sworup</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Does nothing yet</a>
         </div>
     </section>
